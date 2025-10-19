@@ -1,6 +1,6 @@
 import {navLinks} from "../constants";
 
-const NavBar = () => {
+const Navbar = () => {
     return (
         <header>
             <nav>
@@ -26,4 +26,4 @@ const NavBar = () => {
         </header>
     )
 }
-export default NavBar
+export default Navbar
