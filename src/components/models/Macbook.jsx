@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import {useGLTF, useVideoTexture} from '@react-three/drei'
-import useMacbookStore from "../../store/index.js";
+import useMacbookStore from "../../store/useMacbookStore.js";
 import {noChangeParts} from "../../constants/index.js";
 import {Color} from "three";
 
