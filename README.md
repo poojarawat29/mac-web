@@ -1,16 +1,63 @@
-# React + Vite
+MacBook Showcase Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, interactive website showcasing the MacBook using modern web technologies like React, GSAP, and Vite.
 
-Currently, two official plugins are available:
+🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a visually engaging website that highlights the features and performance of the MacBook. It leverages:
 
-## React Compiler
+React: For building a dynamic user interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+GSAP (GreenSock Animation Platform): To create smooth and performant animations.
 
-## Expanding the ESLint configuration
+Vite: As the build tool for fast development and optimized production builds.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ScrollTrigger: A GSAP plugin to trigger animations based on scroll position.
+
+📦 Installation
+
+Clone the repository and install the dependencies:
+
+git clone https://github.com/poojarawat29/mac-web.git
+cd mac-web
+npm install
+
+⚙️ Development
+
+Start the development server:
+
+npm run dev
+
+
+Visit http://localhost:5173 in your browser to view the project.
+
+🛠️ Build & Deploy
+
+To build the project for production:
+
+npm run build
+
+
+The production-ready files will be available in the dist directory.
+
+🌐 Live Demo
+
+Experience the live version of the website here:
+
+👉 macbook-web.vercel.app
+
+🧪 Technologies Used
+
+React: JavaScript library for building user interfaces.
+
+GSAP: JavaScript library for high-performance animations.
+
+ScrollTrigger: GSAP plugin for scroll-based animations.
+
+Vite: Next-generation, fast build tool.
+
+React Responsive: Library for media query handling in React.
+
+🧑‍💻 Contributing
+
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
